@@ -68,3 +68,5 @@ bookmarkRouter
 
         }
     });
+
+module.exports = bookmarkRouter
