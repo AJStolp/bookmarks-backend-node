@@ -1,3 +1,13 @@
 {"message":"Unauthorized request to path: / ","level":"error"}
 {"message":"Unauthorized request to path: / ","level":"error"}
 {"message":"Unauthorized request to path: /bookmarks ","level":"error"}
+{"message":"Unauthorized request to path: / ","level":"error"}
+{"message":"Unauthorized request to path: / ","level":"error"}
+{"message":"a book mark with the f2c55a2e-6312-407e-abba-19f98893715b was created","level":"info"}
+{"message":"a book mark with the 98f1550a-6168-4d31-8eed-a1486049217f was created","level":"info"}
+{"message":"a book mark with the f27f73d4-67c4-4f14-97f9-65348e66db2e was created","level":"info"}
+{"message":"a book mark with the 1e717570-095c-460e-a892-0518294b3a1c was created","level":"info"}
+{"message":"a book mark with the 609b79eb-6d10-46f4-8bbe-72366c4096f6 was created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks ","level":"error"}
+{"message":"Unauthorized request to path: /favicon.ico ","level":"error"}
+{"message":"a book mark with the 2b2cbd8b-cc8f-4ca4-988b-816d0ea4d1a4 was created","level":"info"}
