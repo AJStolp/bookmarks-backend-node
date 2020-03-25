@@ -1,8 +1,13 @@
 const express = require('express');
-const bookmarkRouter = express.Router();
 const bookmarks = require('../store');
-const bodyParser = express.json();
 const uuid = require('uuid/v4');
+const validUrl = require('valid-url');
+
+const logger = require('../logger');
+
+const bookmarkRouter = express.Router();
+const bodyParser = express.json();
+
 
 bookmarkRouter
     .route('/bookmarks')
@@ -59,5 +64,7 @@ bookmarkRouter
 
         const bookmarkIndex = bookmarks.find(b => b.id == id);
 
-        
-    })
+        if(bookmarkIndex === -1) {
+
+        }
+    });
