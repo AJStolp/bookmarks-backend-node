@@ -85,6 +85,9 @@ bookmarkRouter
         //book mark id and params id need to equal to match
 
         logger.info(`Card with ${id} was removed`);
+            res
+                .status(204)
+                .end();
     });
 
 module.exports = bookmarkRouter

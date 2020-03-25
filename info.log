@@ -11,3 +11,38 @@
 {"message":"Unauthorized request to path: /bookmarks ","level":"error"}
 {"message":"Unauthorized request to path: /favicon.ico ","level":"error"}
 {"message":"a book mark with the 2b2cbd8b-cc8f-4ca4-988b-816d0ea4d1a4 was created","level":"info"}
+{"message":"a book mark with the cc4ccea7-6e5c-4da6-90d3-0bcba8d7bba4 was created","level":"info"}
+{"message":"a book mark with the fa9e990f-a324-4e42-8b3b-90e5e41af6ff was created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks ","level":"error"}
+{"message":"Card with undefined was removed","level":"info"}
+{"message":"Card with undefined was removed","level":"info"}
+{"message":"Card with undefined was removed","level":"info"}
+{"message":"a book mark with the b4bf5cc5-d7e5-448e-8aed-04b4bc4abf0b was created","level":"info"}
+{"message":"Card with undefined was removed","level":"info"}
+{"message":"Card with undefined was removed","level":"info"}
+{"message":"Card with undefined was removed","level":"info"}
+{"message":"Card with undefined was removed","level":"info"}
+{"message":"Card with undefined was removed","level":"info"}
+{"message":"a book mark with the 398d8666-94e4-4545-a960-aeabe89fa099 was created","level":"info"}
+{"message":"a book mark with the 5ef92f1f-f81d-4cc4-8931-1bb63ccc8ac0 was created","level":"info"}
+{"message":"Card with undefined was removed","level":"info"}
+{"message":"Card with undefined was removed","level":"info"}
+{"message":"a book mark with the 9f4d6d1f-3b38-46ff-832e-fc7c8a82bab4 was created","level":"info"}
+{"message":"a book mark with the ef454db5-17ec-43d0-98e3-554a7de2b4d8 was created","level":"info"}
+{"message":"Card with undefined was removed","level":"info"}
+{"message":"a book mark with the 12df4eb5-cf12-4eff-a2ba-b0f3b4d120c9 was created","level":"info"}
+{"message":"a book mark with the 536b89ad-9793-4e0e-aa6f-6ae245004557 was created","level":"info"}
+{"message":"a book mark with the e3baae2e-2189-455e-a50c-a42a77055211 was created","level":"info"}
+{"message":"Card with id: undefined was removed","level":"info"}
+{"message":"a book mark with the 6ea1e481-e921-4d09-8f2c-ab4c32f74783 was created","level":"info"}
+{"message":"Card with id: undefined was removed","level":"info"}
+{"message":"a book mark with the b449fe72-4f21-4341-95da-37cee08dda6a was created","level":"info"}
+{"message":"Card with id: undefined was removed","level":"info"}
+{"message":"a book mark with the 10e8d364-60a2-4646-ad11-790cedc0ac7f was created","level":"info"}
+{"message":"a book mark with the 212721f0-f59f-4768-99d6-c9dceb290e40 was created","level":"info"}
+{"message":"a book mark with the 86ec3fbf-f1d9-4157-bad7-c68b2c1c57b1 was created","level":"info"}
+{"message":"a book mark with the 6a7451bf-1950-45bd-8938-a57e35c8ca24 was created","level":"info"}
+{"message":"a book mark with the 43840c45-4ea9-48a2-82ab-b5460567849a was created","level":"info"}
+{"message":"a rating is required","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks ","level":"error"}
+{"message":"a book mark with the ecbf3069-f157-4583-aa96-071771dfb979 was created","level":"info"}
