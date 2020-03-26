@@ -46,3 +46,48 @@
 {"message":"a rating is required","level":"error"}
 {"message":"Unauthorized request to path: /bookmarks ","level":"error"}
 {"message":"a book mark with the ecbf3069-f157-4583-aa96-071771dfb979 was created","level":"info"}
+{"message":"a book mark with the 311fdcee-16eb-4eb3-ae41-1a3438782ed7 was created","level":"info"}
+{"message":"a book mark with the 66e7066a-9960-4e57-bccc-aaf14077995f was created","level":"info"}
+{"message":"a book mark with the a29e161b-b50c-4ccb-ac64-8e81717e024e was created","level":"info"}
+{"message":"a book mark with the a31e6126-c84b-44b3-93d4-53b174292262 was created","level":"info"}
+{"message":"a book mark with the 2910790e-6152-425f-af36-abff3c5a0f9d was created","level":"info"}
+{"message":"a book mark with the a03adddf-ec17-4a6d-ab92-367c7e2cbbf0 was created","level":"info"}
+{"message":"a book mark with the 3bc95cc8-cf32-4a87-91f1-b1c24e334b03 was created","level":"info"}
+{"message":"a book mark with the 72398486-9fcf-43f1-bba7-393dae5b37ce was created","level":"info"}
+{"message":"a book mark with the ea1469f2-61be-4736-a8d7-5e925b32adfd was created","level":"info"}
+{"message":"a book mark with the 83b1bfa8-0f95-4e7a-9069-53340b4b20d0 was created","level":"info"}
+{"message":"a book mark with the d21d2d62-5a00-43e2-946c-5e4ec67d848c was created","level":"info"}
+{"message":"a book mark with the 5316a304-55ed-48fb-be46-9b3c5511a3f8 was created","level":"info"}
+{"message":"a book mark with the 7756f5ca-19d6-4f3b-a1e9-393a07a97388 was created","level":"info"}
+{"message":"a book mark with the 0424cce0-edd8-45b4-8731-2e2917e37442 was created","level":"info"}
+{"message":"a book mark with the ef5df296-6d53-41a9-b7f6-2e261c95cbaf was created","level":"info"}
+{"message":"a book mark with the 985549e1-f574-41e2-9f9f-a89e887ff7af was created","level":"info"}
+{"message":"a book mark with the 669bf882-64a0-4d8b-b609-49993901e885 was created","level":"info"}
+{"message":"a book mark with the cd20c4b0-3393-417c-b462-0e22aac34b0c was created","level":"info"}
+{"message":"a book mark with the cf032c1d-aee6-4933-987f-aadeeb13e0c0 was created","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks/ ","level":"error"}
+{"message":"a book mark with the 45241a55-c76a-467c-889d-6f87036cc50e was created","level":"info"}
+{"message":"a book mark with the 4af9beb3-2ca5-4e26-a14e-cb35c912bbc3 was created","level":"info"}
+{"message":"a book mark with the 80e732ca-bfbf-44ea-af9b-efd6044f1c4d was created","level":"info"}
+{"message":"A bookmark with an id of 5ef92f1f-f81d-4cc4-8931-1bb63ccc8ac0 does not exists","level":"error"}
+{"message":"A bookmark with an id of 5ef92f1f-f81d-4cc4-8931-1bb63ccc8ac0 does not exists","level":"error"}
+{"message":"A bookmark with an id of 5ef92f1f-f81d-4cc4-8931-1bb63ccc8ac0 does not exists","level":"error"}
+{"message":"a book mark with the e9ff2aee-5880-4fac-a5bd-f857e22759e9 was created","level":"info"}
+{"message":"a book mark with the 4ab46c12-725f-41e0-ac77-a55457647c2b was created","level":"info"}
+{"message":"a book mark with the 6c4a726a-4702-4c83-8a2a-eeda523e6baf was created","level":"info"}
+{"message":"Bookmark with id=2 was removed","level":"info"}
+{"message":"Bookmark with id=2 was removed","level":"info"}
+{"message":"Bookmark with id=76eb8cfb-53d5-425b-9d6e-74d71e0c7efd was removed","level":"info"}
+{"message":"Bookmark with id=27cc2331-fb8a-4e35-83bc-2b3f467215d1 was removed","level":"info"}
+{"message":"Bookmark with id=-1 was removed","level":"info"}
+{"message":"a book mark with the e5b630c6-bdee-4e19-b6b8-e97aa88a999b was created","level":"info"}
+{"message":"a book mark with the cbaa2e38-7307-4b56-9077-c7efb7aaa274 was created","level":"info"}
+{"message":"A bookmark with an id of id=cbaa2e38-7307-4b56-9077-c7efb7aaa274 does not exists","level":"error"}
+{"message":"A bookmark with an id of id=cbaa2e38-7307-4b56-9077-c7efb7aaa274 does not exists","level":"error"}
+{"message":"A bookmark with an id of id=cbaa2e38-7307-4b56-9077-c7efb7aaa274 does not exists","level":"error"}
+{"message":"No bookmarks found with id=5a6de726-7737-4665-aa63-d6dfac9508d3 found","level":"error"}
+{"message":"No bookmarks found with id=1b3dc9f9-9c94-4aa6-805e-d6ccd3f66ba1 found","level":"error"}
+{"message":"A bookmark with an id of id=1b3dc9f9-9c94-4aa6-805e-d6ccd3f66ba1 does not exists","level":"error"}
+{"message":"No bookmarks found with id=cd616426-43fd-4f38-8efe-24367bc5528f found","level":"error"}
+{"message":"No bookmarks found with id=e6fbb46c-a34f-436b-a1af-d6a09b34a6da found","level":"error"}
+{"message":"A bookmark with an id of id=e6fbb46c-a34f-436b-a1af-d6a09b34a6da does not exists","level":"error"}

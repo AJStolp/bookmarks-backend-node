@@ -1,27 +1,29 @@
+const uuid = require('uuid/v4');
+
 const bookmarks = [
     {
-        url: 'www.thinkful.com',
+        url: 'http://thinkful.com',
         description: 'Web site for learning data, design, and code',
         rating: 5,
-        id: 1
+        id: uuid()
     },
     {
-        url: 'www.apple.com',
+        url: 'http://apple.com',
         description: 'All things apple',
         rating: 5,
-        id: 2
+        id: uuid()
     },
     {
-        url: 'www.news.google.com',
+        url: 'http://news.google.com',
         description: 'New events. Local and National',
         rating: 4,
-        id: 3
+        id: uuid()
     },
     {
-        url: 'www.google.com',
+        url: 'http://google.com',
         description: 'Google home page',
         rating: 4,
-        id: 4
+        id: uuid()
     }
 ]
 
