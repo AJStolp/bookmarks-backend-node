@@ -1,8 +1,8 @@
 const express = require('express');
 const uuid = require('uuid/v4');
 const store = require('../store');
-// const validUrl = require('valid-url');
-const isUrl = require('is-url');
+// const isWebUri = require('valid-url');
+// const isUrl = require('is-url');
 
 const logger = require('../logger');
 
@@ -13,8 +13,7 @@ const bodyParser = express.json();
 bookmarkRouter
     .route('/bookmarks')
     .get((req, res) => {
-        return res.json(store);
-        //res.json(store.bookmarks) rashon
+        res.json(store.bookmarks)
     })
     .post(bodyParser, (req, res) => {
         const { url, description, rating } = req.body;
