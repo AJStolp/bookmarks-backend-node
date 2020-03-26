@@ -91,3 +91,26 @@
 {"message":"No bookmarks found with id=cd616426-43fd-4f38-8efe-24367bc5528f found","level":"error"}
 {"message":"No bookmarks found with id=e6fbb46c-a34f-436b-a1af-d6a09b34a6da found","level":"error"}
 {"message":"A bookmark with an id of id=e6fbb46c-a34f-436b-a1af-d6a09b34a6da does not exists","level":"error"}
+{"message":"A bookmark with an id of id=02c0c24-2a6d-454e-932d-1975fec8333b does not exists","level":"error"}
+{"message":"a book mark with the 0a4c5253-e1d7-4c85-bfef-db09bcbf6f06 was created","level":"info"}
+{"message":"A bookmark with an id of id=55194db5-f8a1-4fb8-a97c-fa84fd858574 does not exists","level":"error"}
+{"message":"a book mark with the 7afec597-ace5-4167-919e-c89b8c0b233e was created","level":"info"}
+{"message":"a book mark with the e5d824c1-5bff-47a7-bd67-f02c5648a35f was created","level":"info"}
+{"message":"Unauthorized request to path: / ","level":"error"}
+{"message":"Unauthorized request to path: /favicon.ico ","level":"error"}
+{"message":"Unauthorized request to path: / ","level":"error"}
+{"message":"a book mark with the b429fc4f-4d95-4781-946c-860fbe3f92e9 was created","level":"info"}
+{"message":"A bookmark with an id of bookmark_id=ca31ef56-483c-4ad1-bd21-3531af8ecce0 does not exists","level":"error"}
+{"message":"A bookmark with an id of bookmark_id=2fa64c63-66f8-412e-9cee-776f6a4587d3 does not exists","level":"error"}
+{"message":"A bookmark with an id of bookmark_id=2440eb49-c169-4eca-a355-c9a35b915e4c does not exists","level":"error"}
+{"message":"a book mark with the 929fbb2e-fa20-4c10-8816-2d37fa6aa1bc was created","level":"info"}
+{"message":"a book mark with the 89a09557-d341-4079-a5ae-ea22c13168c0 was created","level":"info"}
+{"message":"a book mark with the 16078adb-271b-4347-b6ac-8df93c19f777 was created","level":"info"}
+{"message":"a book mark with the 92e09f8e-180a-47b6-9287-ae5bb3d60ee5 was created","level":"info"}
+{"message":"A bookmark with an id of bookmark_id=8bc6e61d-c7d3-4f7d-819e-32555b5bdb74 does not exists","level":"error"}
+{"message":"A bookmark with an id of bookmark_id=564031db-6933-4c1b-8877-32dda4c88fa1 does not exists","level":"error"}
+{"message":"A bookmark with an id of bookmark_id=6aeb2cea-69fb-471c-bab5-f6533e904a3f does not exists","level":"error"}
+{"message":"A bookmark with an id of bookmark_id=4c31a864-5a5a-4611-ba45-64eeadfa3bb0 does not exists","level":"error"}
+{"message":"a book mark with the 27cdb3bd-507b-4ea5-b094-fdecd22aeac5 was created","level":"info"}
+{"message":"A bookmark with an id of bookmark_id=36dd8027-a24d-4e7d-80bf-67fcc6cd9b67 does not exists","level":"error"}
+{"message":"A bookmark with an id of bookmark_id=acc725d6-0f6f-4dde-81a6-ee5f4f6bce8f does not exists","level":"error"}

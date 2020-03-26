@@ -1,6 +1,6 @@
 const express = require('express');
-const store = require('../store');
 const uuid = require('uuid/v4');
+const store = require('../store');
 // const validUrl = require('valid-url');
 const isUrl = require('is-url');
 
@@ -14,6 +14,7 @@ bookmarkRouter
     .route('/bookmarks')
     .get((req, res) => {
         return res.json(store);
+        //res.json(store.bookmarks) rashon
     })
     .post(bodyParser, (req, res) => {
         const { url, description, rating } = req.body;
@@ -21,75 +22,74 @@ bookmarkRouter
         if(!url) {
             logger.error('url is required')
             return res
-                    .status(401)
-                    .send('Invalid Data')
-
+                .status(401)
+                .send('Invalid Data')
         }
         if(!description) {
             logger.error('a description is required')
             return res
-                    .status(400)
-                    .send('Invalid data')
+                .status(400)
+                .send('Invalid data')
         }
         if(!rating){
             logger.error('a rating is required')
             return res  
-                    .status(400)
-                    .send('Invalid data')
-
+                .status(400)
+                .send('Invalid data')
         }
 
-        const id = uuid();
+       // const id = uuid();
 
         const newBookmark = {
+            id: uuid(),
             url,
             description,
-            rating,
-            id
+            rating
         }
         store.push(newBookmark);
 
-        logger.info(`a book mark with the ${id} was created`)
+        logger.info(`a book mark with the ${newBookmark.id} was created`)
             res
-              .status(200)
-              .location(`a bookmark was created at http://localhost:8000/bookmars/${id}`)
+              .status(201)
+              .location(`a bookmark was created at http://localhost:8000/bookmars/${newBookmark.id}`)
               .json(newBookmark)
     });
 
 bookmarkRouter
-    .route('/bookmarks/:id')
+    .route('/bookmarks/:bookmark_id')
     .get((req, res) => {
-        const { id } = req.params;
-        const bookmark = store.find(b => b.id == id);
+        const { bookmark_id } = req.params;
+
+        const bookmark = store.find(c => c.id == bookmark_id);
 
         //make sure bookmarks were found
         if(!bookmark) {
-            logger.error(`No bookmarks found with ${id} found`)
+            logger.error(`No bookmarks found with ${bookmark_id} found`)
             return res
-                    .status(400)
-                    .send('No bookmark found')
+                .status(404)
+                .send('No bookmark found')
         }
         return res.json(bookmark);
     })
     .delete((req, res) => {
-        const { id } = req.params;
+        const { bookmark_id } = req.params;
 
-        const bookmark = store.findIndex(b => b.id === id);
+        const bookmarkIndex = store.findIndex(b => b.id === bookmark_id);
 
-
-        if(bookmark === -1) {
-            logger.error(`A bookmark with an id of ${id} does not exists`)
+        if(bookmarkIndex === -1) {
+            logger.error(`A bookmark with an id of ${bookmark_id} does not exists`)
             return res
-                    . status(400)
-                    .send('No book found')
+                .status(404)
+                .send('No bookmark found')
         }
         //book mark id and params id need to equal to match
-        store.splice(bookmark, 1);
+        //store.bookmarks.splice(bookmarkIndex, 1);
+        store.splice(bookmarkIndex, 1);
 
-        logger.info(`Bookmark with ${id} was removed`);
-            res
-                .status(204)
-                .end();
-    });
+        logger.info(`Bookmark with ${bookmark_id} was removed`);
+        res
+            .status(204)
+            .end();
+    })
 
 module.exports = bookmarkRouter
