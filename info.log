@@ -129,3 +129,21 @@
 {"message":"a book mark with the d552774f-35c6-4116-8ea2-b64d484374bf was created","level":"info"}
 {"message":"A bookmark with an id of bookmark_id=d552774f-35c6-4116-8ea2-b64d484374bf does not exists","level":"error"}
 {"message":"No bookmarks found with bookmark_id=d552774f-35c6-4116-8ea2-b64d484374bf found","level":"error"}
+{"message":"Unauthorized request to path: / ","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks ","level":"error"}
+{"message":"a book mark with the 5c437e34-7787-4e02-af11-0c6922db9a44 was created","level":"info"}
+{"message":"No bookmarks found with bookmark_id=5c437e34-7787-4e02-af11-0c6922db9a44 found","level":"error"}
+{"message":"A bookmark with an id of bookmark_id=5c437e34-7787-4e02-af11-0c6922db9a44 does not exists","level":"error"}
+{"message":"a book mark with the d66ee6a1-c45c-424f-9bea-9cbebaa2d185 was created","level":"info"}
+{"message":"a book mark with the ca8bd8b4-9137-4ecd-bf6c-fc883df49ad6 was created","level":"info"}
+{"message":"a book mark with the f9549ec3-13c4-4d92-a486-a83152fb3e53 was created","level":"info"}
+{"message":"No bookmarks found with bookmark_id=6f5bdd6a-fd4b-47f1-ac8a-ff057ae0c319 found","level":"error"}
+{"message":"A bookmark with an id of 5c437e34-7787-4e02-af11-0c6922db9a44 does not exists","level":"error"}
+{"message":"A bookmark with an id of bookmark_id5c437e34-7787-4e02-af11-0c6922db9a44 does not exists","level":"error"}
+{"message":"A bookmark with an id of bookmark_id=5c437e34-7787-4e02-af11-0c6922db9a44 does not exists","level":"error"}
+{"message":"a book mark with the 3ddea6fe-41b9-4015-8b1d-10ae80de74dc was created","level":"info"}
+{"message":"A bookmark with an id of bookmark_id=379d786c-10c5-40a6-9ac7-9579f80d12af does not exists","level":"error"}
+{"message":"a book mark with the 85c3b477-cf87-4d7b-b309-3f6fa0b669fb was created","level":"info"}
+{"message":"a book mark with the c0da55d7-f2e2-4470-8378-2238c7a1b07b was created","level":"info"}
+{"message":"Unauthorized request to path: / ","level":"error"}
+{"message":"Unauthorized request to path: / ","level":"error"}
